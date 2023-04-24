@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+/* Styling an add section of html */
+}
+h1{
+    font-size: 3rem;
+    font-family: sans-serif;
+    background-color:rgb(71, 137, 137);
+    color: whitesmoke;
+}
+
+body{
+    width: 75%;
+    height: 50%;
+    margin: auto;
+    background-color:lightpink;
+}
+
+th{
+    background-color:aquamarine;
+    padding: 2%;
+    font-size: 1rem;
+    text-align: center;
+    margin: auto;
+    
+}
+/* styling an input context */
+input[type="text"]{
+    margin: 3%;
+    font-size: 1.2rem;
+    background: transparent;
+    border: hidden;
+    outline: none;
+}
+/* styling an category */
+select{
+    margin-left: 44%;
+    background: transparent;
+    border: hidden;
+    outline: none;
+}
+/* styling an date */
+input[type="date"]{
+    margin-left: 40%;
+    outline: none;
+    border: hidden;
+}
+/* common styling in add and delete button */
+#add,#delete{
+    margin-bottom: 10%;
+    border-radius: 5%;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    border: hidden;
+}
+
+#add{
+    margin: 20% 0% 3% 215%;
+    padding: 6%;
+    background-color: #26992d;
+    border-radius: 20px;
+}
+
+#delete{
+    margin: 5% 0% 3% 0%;
+    padding: 2% 2% 2% 2%;
+    background-color: red;
+    border-radius: 20px;
+}
+/* Styling while hovering */
+
+input[type="text"]:hover{
+    background-color:cornflowerblue;
+}
+ input[type="date"]:hover,select:hover{
+    cursor: pointer;
+    background-color:cornflowerblue;
+ }
+#delete:hover{
+    cursor: pointer;
+    background-color: #a92323;
+    box-shadow: initial 3px 3px 3px 3px #a92323;
+}
+
+#add:hover{
+    cursor: pointer;
+    background-color: rgb(6, 65, 9);
+    box-shadow: initial 3px 3px 3px 3px rgb(6, 65, 9);
+}
+
+/* Styling an Task list section */
+#check-list{
+    position: relative;
+    margin: 60%;
+    cursor: pointer;
+}
+
+/* common styling */
+
+#task-description,#task-category,#due-date{
+    margin: 2% 30% 2% 30%;
+    padding: 5px 2px 5px 2px;
+    border-radius: 10px;
+    text-align: center;
+    color:whitesmoke;
+    letter-spacing: 1px;
+
+}
+
+#task-description{
+    font-size: large;
+    background-color:palevioletred;
+}
+
+#task-category{
+    margin:0 16% 0 20%;
+    padding: 10px 1px 10px 0px;
+    background-color: #3b6bb8;
+}
+
+#due-date{
+    background-color: rgb(234,237,240);
+    background-color: darkslategray;
+}
